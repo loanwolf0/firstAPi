@@ -1,0 +1,31 @@
+GET http://localhost:3000/api
+
+###
+GET http://localhost:3000/api/5
+
+###
+DELETE  http://localhost:3000/api/6508a204bf54f210245c99af
+
+###
+GET http://localhost:3000/api/65089487cfae3b2981d7b120
+
+
+
+###
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name":"ANurag ",
+    "cost": 500
+}
+
+
+###
+PATCH  http://localhost:3000/api/65089b06e3d237fc6fbc90c0
+Content-Type: application/json
+
+{
+    "name":" Hello Anurag You are updated",
+    "subscriber": " Tell me your channel name  "
+}
